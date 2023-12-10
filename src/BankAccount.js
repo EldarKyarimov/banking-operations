@@ -31,30 +31,3 @@ module.exports = { BankAccount }
 
 
 
-
-// class BankAccount {
-//     constructor(ownerName, initialBalance) {
-//         this.ownerName = ownerName;
-//         this.balance = initialBalance;
-//     }
-
-//     deposit(amount) {
-//         if (amount > 0) {
-//             this.balance += amount;
-//         } else {
-//             throw new Error('Deposit amount must be positive!')
-//         }
-//     }
-
-//     withdraw(amount) {
-//         if (amount > 0 && this.balance >= amount) {
-//             this.balance -= amount;
-//         } else {
-//             throw new Error('Insufficient funds!');
-//         }
-//     }
-
-//     getBalance() {
-//         return this.balance;
-//     }
-// }
